@@ -1,0 +1,33 @@
+[0m08:46:49.002002 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e32db0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10693c6e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10693c5f0>]}
+
+
+============================== 08:46:49.005881 | 494aad79-5b60-4dff-897c-92f044932931 ==============================
+[0m08:46:49.005881 [info ] [MainThread]: Running with dbt=1.11.11
+[0m08:46:49.006423 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'debug': 'False', 'cache_selected_only': 'False', 'version_check': 'True', 'printer_width': '80', 'log_format': 'default', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'empty': 'None', 'log_cache_events': 'False', 'log_path': 'logs', 'introspect': 'True', 'invocation_command': 'dbt init', 'no_print': 'None', 'write_json': 'True', 'quiet': 'False', 'use_colors': 'True', 'target_path': 'None', 'profiles_dir': '/Users/muhammadabbas/.dbt', 'warn_error': 'None'}
+[0m08:47:39.355784 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/dbt/include/starter_project
+[0m08:47:39.365998 [info ] [MainThread]: 
+Your new dbt project "dbt_airbnb" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:47:39.366381 [info ] [MainThread]: Setting up your profile.
+[0m08:47:51.108825 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m08:47:51.109420 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m08:47:51.109710 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m08:53:46.387076 [info ] [MainThread]: Profile dbt_airbnb written to /Users/muhammadabbas/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m08:53:46.457483 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 417.50827, "process_in_blocks": "0", "process_kernel_time": 0.413808, "process_mem_max_rss": "195067904", "process_out_blocks": "0", "process_user_time": 1.256657}
+[0m08:53:46.459919 [debug] [MainThread]: Command `dbt init` succeeded at 08:53:46.459786 after 417.51 seconds
+[0m08:53:46.461143 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c18bc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x116b44530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x117a19af0>]}
+[0m08:53:46.461792 [debug] [MainThread]: Flushing usage events
+[0m08:53:46.726245 [debug] [MainThread]: An error was encountered while trying to flush usage events
